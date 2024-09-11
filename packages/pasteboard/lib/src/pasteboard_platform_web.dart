@@ -1,12 +1,11 @@
 // ignore_for_file: avoid_web_libraries_in_flutter, depend_on_referenced_packages
 
 import 'dart:html';
+import 'dart:js/js_wasm.dart';
 import 'dart:js_util';
-import 'dart:typed_data';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:js/js.dart';
 
 import 'pasteboard_platform.dart';
 
